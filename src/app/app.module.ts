@@ -15,6 +15,7 @@ import { ContadorComponent } from './contador/contador.component';
 import { PainelComponent } from './painel/painel.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { ComponenteDinamicoComponent } from './componente-dinamico/componente-dinamico.component';
+import { ProductsModule } from './products/products.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ComponenteDinamicoComponent } from './componente-dinamico/componente-di
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

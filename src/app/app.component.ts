@@ -26,13 +26,13 @@ export class AppComponent {
   //   this.contadorComponent?.incrementar();
   // }
 
-  @ViewChild('componenteDinamicoContainer', { read: ViewContainerRef}) container!: ViewContainerRef;
+  // @ViewChild('componenteDinamicoContainer', { read: ViewContainerRef}) container!: ViewContainerRef;
 
-  constructor(private componentFactoryResolver: ComponentFactoryResolver) {}
+  // constructor(private componentFactoryResolver: ComponentFactoryResolver) {}
 
-  criarComponenteDinamico() {
-    const factory = this.componentFactoryResolver.resolveComponentFactory(ComponenteDinamicoComponent);
-    this.container.clear();
-    this.container.createComponent(factory);
-  }
+  // criarComponenteDinamico() {
+  //   const factory = this.componentFactoryResolver.resolveComponentFactory(ComponenteDinamicoComponent);
+  //   this.container.clear();
+  //   this.container.createComponent(factory);
+  // }
 }
